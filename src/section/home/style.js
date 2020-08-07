@@ -48,6 +48,16 @@ export const Container = styled.div`
     max-width: 450px;
     margin: 0 auto;
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
 `;
 
 export const BtnHero = styled(Link)`

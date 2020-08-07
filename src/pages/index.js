@@ -5,7 +5,6 @@ import SEO from "../components/seo";
 
 // Section
 import Home from "../section/home/home";
-import Sobre from "../section/sobre/sobre";
 
 const IndexPage = () => (
   <Layout>
